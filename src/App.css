@@ -1,38 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  padding: 24px 0;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 900px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.PageHeader {
+  display: flex;
+  width: 100%;
+  background-color: rgb(255, 200, 255);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.PageFooter {
+  display: flex;
+  width: 100%;
+  height: 36px;
+  background-color: rgb(255, 200, 255);
+}
+
+.PageBody {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  background-color: rgb(255, 255, 200);
+}
+
+.Portrait {
+  display: flex;
+  width: 600px;
+  min-height: 600px;
+  padding: 24px 24px;
+  background-color: rgb(60, 60, 120);
+}
+
+.Countries {
+  display: flex;
+  min-width: 100%;
+  min-height: 600px;
+  background-color: rgb(120, 60, 120);
+}
+
+.Button {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  line-height: 1.2rem;
+  font-weight: 900;
+  padding: 8px 12px;
+  font-size: 16px;
   color: white;
+  height: 36px;
 }
 
-.App-link {
-  color: #61dafb;
+.Button:hover {
+  background-color: rgb(90, 90, 90);
+  transition: 0.7s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Red {
+  background-color: rgb(120, 60, 60);
+}
+
+.Green {
+  background-color: rgb(60, 120, 60);
+}
+
+.ButtonSection {
+  display: flex;
+  align-items: center;
 }

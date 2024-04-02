@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { CountriesSection } from './components/countries/countries-section/countries-section';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className='PageBody'>
           <div className='Portrait'></div>
-          <div className='Countries'></div>
+          <CountriesSection></CountriesSection>
         </div>
         <div className='PageFooter'></div>
       </div>

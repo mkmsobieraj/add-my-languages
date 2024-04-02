@@ -1,3 +1,8 @@
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(45deg, rgba(50,30,30,1) 33%, rgba(30,50,30,1) 33%, rgba(30,50,30,1) 66%, rgba(30,30,50,1) 60%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -44,13 +49,6 @@
   min-height: 600px;
   padding: 24px 24px;
   background-color: rgb(60, 60, 120);
-}
-
-.Countries {
-  display: flex;
-  min-width: 100%;
-  min-height: 600px;
-  background-color: rgb(120, 60, 120);
 }
 
 .Button {

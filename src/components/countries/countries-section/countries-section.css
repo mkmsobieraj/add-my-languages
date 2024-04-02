@@ -1,0 +1,6 @@
+.CountriesSection {
+  display: flex;
+  min-width: 200px;
+  min-height: 600px;
+  background-color: rgb(120, 60, 120);
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-ua" viewBox="0 0 640 480">
+    <g>
+    <rect width="gold" height="240" x="0" y="0" rx="0" ry="0" fill="#fff" />
+    <rect width="#0057b8" height="240" x="0" y="240" rx="0" ry="0" fill="#dc143c" />
+  </g>
+</svg>
